@@ -10,17 +10,17 @@ Here are summarized to steps undertaken to test this theory:
 * Categorization of Carrefour products into 38 categories, to reduce the dimensionality of the dataset.
 
 * Grouping the dataset by customers using 2 different metrics:
- * Average consumption by category for each customer
- * Macronutrient composition of the average consumption by category for each customer
+  * Average consumption by category for each customer
+  * Macronutrient composition of the average consumption by category for each customer
  
 * Clustering customers via different techniques:
- * DBSCAN on Linear combinations of the average consumption by category for each customer
- * K-Means on the category by initializing cluster centroids
- * K-Means on the macronutrient composition
- * Gradient Descent to minimize difference in 'health score' between the healthy and the unhealthy cluster
+  * DBSCAN on Linear combinations of the average consumption by category for each customer
+  * K-Means on the category by initializing cluster centroids
+  * K-Means on the macronutrient composition
+  * Gradient Descent to minimize difference in 'health score' between the healthy and the unhealthy cluster
  
 * Testing of the theory by means of a survey which measures individuals' consumption behaviour and propensity to purchase longevity insurance
- * PDSLasso as a trade-off between consistency in parameters and prediction performance in a high k - low n scenario
- * Reducing omitted variable bias via Instrumental Variables
+  * PDSLasso as a trade-off between consistency in parameters and prediction performance in a high k - low n scenario
+  * Reducing omitted variable bias via Instrumental Variables
  
 * Experiment proposition by applying a Logit Model.
